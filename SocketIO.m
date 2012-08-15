@@ -128,7 +128,7 @@ static NSString* kSecureXHRPortURL = @"https://%@:%d/socket.io/1/xhr-polling/%@"
         // make a request
         NSURLRequest *request = [NSURLRequest requestWithURL:url
                                                  cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData 
-                                             timeoutInterval:10.0];
+                                             timeoutInterval:2.0];
         
         NSURLConnection *connection = [NSURLConnection connectionWithRequest:request 
                                                                     delegate:self];
