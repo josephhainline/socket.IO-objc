@@ -780,8 +780,8 @@ didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge
 
 - (id) dataAsJSON
 {
-    NSData *data = [self.data dataUsingEncoding:NSUTF8StringEncoding];
-    return [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
+    NSData *d = [self.data dataUsingEncoding:NSUTF8StringEncoding];
+    return [NSJSONSerialization JSONObjectWithData:d options:0 error:NULL];
 }
 
 - (NSNumber *) typeAsNumber
