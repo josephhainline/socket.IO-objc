@@ -1,3 +1,10 @@
+# This Fork Exists
+ * To use the native JSON serialization in iOS 5, so there are less
+   dependencies on external JSON parsing libraries.
+ * To make unit testing of SocketIO easier (by making it's delegate
+   settable).
+
+
 # Socket.IO / Objective C Library  (ARC version)
 
   Interface to communicate between Objective C and [Socket.IO](http://socket.io/) 
